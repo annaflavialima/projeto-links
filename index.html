@@ -1,0 +1,71 @@
+<!-- Define um documento HTML5 -->
+<!DOCTYPE html>
+<!-- Elemento root (raiz) do HTML. atributo "lang" define a linguagem do documento. -->
+<html lang="pt-br">
+<!-- Define as configurações do documento, não ficam visíveis na tela para o usuário -->
+<head>
+    <!-- link para font externa no fonts google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Define o conjunto de caracteres usados no documento. "charset="UTF-8"" permite uso de caracteres especiais como ~, ç... -->
+    <meta charset="UTF-8">
+    <!-- Define a compatibilidade com os browsers (navegadores) -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Define o tamanho da area da viewport (tela) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Define o título do documento. Fica visível na aba do navegador -->
+    <title>DevLinks</title>
+    <!-- Lincar com o documento CSS para estilização do documento. atributo "rel" define o tipo de arquivo, e "href" define o local do arquivo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light">
+    <div id="container">
+        <div id="profile">
+            <img src="img/Avatar.png" alt="foto perfil">
+            <p>@annaflavialima</p>
+        </div>
+        <div id="switch" onclick="toggleMode()">
+            <!-- 'onclick="toggleMode()"' para disparar eventos do javascript ao clicar no botão -->
+            <button></button>
+            <span></span>
+        </div>
+        <ul>
+            <li>
+                <a href="https://annaflavialima.github.io/projeto-partiu-roma/" target="_blank">Partiu, Roma</a>
+            </li>
+            <li>
+                <a href="https://annaflavialima.github.io/projeto-copa2022/" target="_blank">FIFA Qatar 2022</a>
+            </li>
+            <li>
+                <a href="https://annaflavialima.github.io/projeto-social/" target="_blank">Redes sociais</a>
+            </li>
+            <li>
+                <a href="https://annaflavialima.github.io/projeto-android/#" target="_blank">Mascote do Android</a>
+            </li>
+        </ul>
+        <div id="social-links">
+            <a href="https://github.com/annaflavialima" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+            <a href="https://www.instagram.com/annaflaviaolima/" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a href="https://www.linkedin.com/in/anna-flavia-de-oliveira-lima-517573110/" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+            <a href="https://codepen.io/annaflavialima" target="_blank">
+                <ion-icon name="logo-codepen"></ion-icon>
+            </a>
+        </div>
+
+        <footer>
+            <p>
+                Feito no curso DevLinks da <a href="https://rocketseat.com.br" target="_blank">Rocketseat</a>
+            </p>
+        </footer>
+    </div>   
+    
+    <!-- link para adicionar icones ao conteúdo -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
