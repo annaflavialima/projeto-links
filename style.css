@@ -49,7 +49,8 @@ body *{
         'auto' margens laterais - alinha o conteudo ao centro. Essa regra é aplicada apenas em elementos com display block, tipo inline não funciona.
         '0px' margin-bottom
     */
-    width: 360px;
+    width: 100%;
+    max-width: 588px;
     padding: 0 24px;
 }
 
