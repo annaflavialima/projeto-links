@@ -24,7 +24,7 @@ function toggleMode() {
         img.setAttribute('src', 'img/avatar-light.png')
     } else {
         // se estiver no modo dark, mantém a foto
-        img.setAttribute("src", "img/avatar.png")
+        img.setAttribute("src", "img/avatar-dark.png")
     }
 }
 
